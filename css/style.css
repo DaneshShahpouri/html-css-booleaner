@@ -110,6 +110,7 @@ section{
             width: 200px;
             text-decoration: inherit;
             color: white;
+            margin: 8px;
         }
 
         footer> a{
