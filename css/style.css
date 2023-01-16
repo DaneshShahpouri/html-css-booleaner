@@ -95,5 +95,32 @@ section{
         }
         /* /TABLE */
     /* /PARTE TESTUALE */
-
 /* /MAIN */
+
+/* FOOTER */
+        footer > span{
+            display: block;
+            color:#828282;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        a>div{
+            height: 200px;
+            width: 200px;
+            text-decoration: inherit;
+            color: white;
+        }
+
+        footer> a{
+            text-decoration: none;
+        }
+
+        #graph{
+            background-image: url(../img/graph.jpg);
+        }
+
+        #monitor{
+            background-image: url(../img/monitor.jpg);
+        }
+/* /FOOTER */
