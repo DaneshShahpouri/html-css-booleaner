@@ -2,5 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding-top: 30px;
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-size: 25%;
+}
+
+header > #logo{
+    height: 35px;
+    padding-left: 8px;
+}
+
+main{
+    padding-top:30px
 }
