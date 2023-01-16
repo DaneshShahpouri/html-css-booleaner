@@ -102,9 +102,9 @@ section{
 
 /* FOOTER */
         footer{
-            margin: 90px;
+            margin:0px 90px;
         }
-        
+
         footer > span{
             display: block;
             color:#828282;
