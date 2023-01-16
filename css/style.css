@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
+/* HEADER */
 header{
     padding-top: 30px;
     background-color: #4ea0ff;
@@ -17,6 +18,82 @@ header > #logo{
     padding-left: 8px;
 }
 
-main{
-    padding-top:30px
+/* /HEADER */
+
+/* TITLE */
+h1{
+    font-size: 40px;
+    font-weight: 900;
 }
+/* TITLE */
+
+/* MAIN */
+
+section{
+    margin:20px 8px
+}
+
+    /* TITOLO ARTICOLO e FOTO */
+    .info_article{
+        display: block;
+        font-size: 16px;
+        color: #828282;
+    }
+    .data_article{
+        display: block;
+        font-size: 12px;
+        color: #828282;
+    }
+
+    .info_evide{
+        color: #4ab9e9;
+    }
+    
+    figcaption{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    /* /TITOLO ARTICOLO e FOTO */
+
+
+    /* PARTE TESTUALE */
+    p{  
+        margin: 30px 0px;
+    }
+
+    .evidenzia_paragrafo{
+        background-color: yellow;
+    }
+
+        /* LISTA */
+        ul{
+            margin: 30px 0px;
+        }
+
+        ul > li{
+            margin-left: 20px;
+        }
+        /* /LISTA */
+
+        /* TABLE */
+        thead tr{
+            background-color: #20a9e5;
+            color: white;
+        }
+
+        tbody tr{
+            margin: 20px 0px;
+        }
+        
+        tbody tr:nth-child(odd){
+             background-color: #b1e5f2; 
+             padding:20px 0px;
+            }
+        
+        tr td:last-child{
+            width: 60%;
+        }
+        /* /TABLE */
+    /* /PARTE TESTUALE */
+
+/* /MAIN */
