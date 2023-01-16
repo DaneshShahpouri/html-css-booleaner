@@ -79,6 +79,10 @@ section{
         /* /LISTA */
 
         /* TABLE */
+        table{
+            border-collapse: collapse;
+        }
+        
         thead tr{
             background-color: #20a9e5;
             color: white;
